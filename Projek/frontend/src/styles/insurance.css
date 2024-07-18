@@ -1,0 +1,10 @@
+.insurCont {
+    padding: 20px;
+}
+
+.insurCont h1, 
+.insurCont h2,
+.insurCont p,
+.insurCont ul {
+    margin-top: 10px;
+}

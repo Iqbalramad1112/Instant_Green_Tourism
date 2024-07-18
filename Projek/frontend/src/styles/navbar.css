@@ -1,0 +1,38 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f4e8d1;
+  padding-inline: 70px;
+  padding-block: 10px;
+}
+
+a, button {
+  cursor: pointer;
+}
+
+nav span, nav a {
+  font-size: 1.2rem;
+  font-weight: 700;
+  align-self: flex-start;
+}
+
+nav > * {
+  width: 33%;
+}
+
+nav span:first-child {
+  align-self: flex-end;
+}
+
+nav a {
+  padding: 5px;
+  text-align: end;
+}
+
+nav a:hover {
+  color: green;
+}
+
+nav img {
+  width: 120px;
+}

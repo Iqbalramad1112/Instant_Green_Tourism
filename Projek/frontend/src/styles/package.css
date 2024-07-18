@@ -1,0 +1,96 @@
+.package-list img {
+  width: 30%;
+}
+
+.pilih-container {
+  margin-bottom: 50px;
+}
+
+.pilih-container div {
+  margin-bottom: 30px;
+}
+
+.pilih-container select, .pilih-container input {
+  margin-top: 15px;
+  padding: 5px 10px;
+  width: 200px;
+}
+
+.pilih-container .pilih-hari {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.trending-package-container h2 {
+  margin-bottom: 20px;
+}
+
+.package-list {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 35px;
+}
+
+.package-list > div {
+  width: 25%;
+  height: 175px;
+  background-color: grey;
+  margin-block: 10px;
+}
+
+main form > button {
+  padding: 10px 15px;
+  border: none;
+  background-color: transparent;
+  border-radius: 5px;
+  background-color: #59a99d;
+  color: #fff;
+}
+
+#toast {
+  visibility: hidden;
+  max-width: 300px; 
+  height: auto; 
+  margin: auto;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  border-radius: 2px;
+  position: fixed;
+  z-index: 1;
+  left: 50%;
+  top: 30px;
+  transform: translateX(-50%); 
+  font-size: 17px;
+  white-space: pre-line; 
+  padding: 10px; 
+}
+
+#toast #desc {
+  color: #fff;
+  padding: 16px;
+  display: inline-block;
+  white-space: pre-wrap; 
+}
+
+@media screen and (max-width: 768px) {
+  main {
+    padding-block: 20px;
+    padding-inline: 0;
+    text-align: center;
+  }
+
+  .pilih-container .pilih-hari {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .package-list {
+    flex-wrap: wrap;
+  }
+
+  .package-list > div {
+    width: 80%;
+  }
+}
